@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zalf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0014-tenant/tkrw-pr712-0075-0014-app/devfile-sample-zalf@sha256:68cbae93bb5b5fe0fd82b30e4ce774c5da89dbe13002ded110778a34f5b4fd17
         name: my-nodejs
         ports:
         - containerPort: 3001
